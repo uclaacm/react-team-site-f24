@@ -5,10 +5,10 @@ import '../assets/WestwoodSans-Regular.ttf';
 
 const HomePage: React.FC = () => {
   const renderButtons = () => {
-    const names = ["Anooshkha", "Nina", "Tiffany", "Person4", "Jeffrey", "Person6", "Person7", "Person8", "Person9", "Person10", "Person11"];
+    const names = ["Alex", "Nina", "Tiffany", "Person4", "Jeffrey", "Person6", "Person7", "Person8", "Person9", "Person10", "Person11"];
     return names.map((name, index) => (
       <Link to={`/${name}Page`} key={index} style={{ textDecoration: 'none' }}>
-        <button style={{ backgroundColor: '#7EC253', margin: '5px', padding: '30px', borderRadius: '20px', border: 'none', cursor: 'pointer', fontSize: '18px' }}>
+        <button style={{ backgroundColor: '#7EC053', margin: '5px', padding: '30px', borderRadius: '20px', border: 'none', cursor: 'pointer', fontSize: '18px' }}>
           {name}'s Page
         </button>
       </Link>
@@ -35,7 +35,7 @@ const HomePage: React.FC = () => {
             id="footer-link"
           >
             {' '}
-            <img id="tla-logo" src={TeachLALogo} alt="teach la logo!" style={{ height: '30px' }} /> {/* Adjust the height here */}
+            <img id="tla-logo" src={TeachLALogo} alt="teach la logo!" style={{ height: '20px' }} /> {/* Adjust the height here */}
             acm.teachLA
           </a>
         </h3>

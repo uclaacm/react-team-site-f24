@@ -1,18 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import AnooshkhaImage from '../assets/images/anooshkha.png';
+import SCPhoto from '../assets/images/scphoto.jpg';
 
-const AnooshkhaPage = () => {
+const Pageddijit = () => {
   return (
     <div style={pageStyle}>
-      <h1>Welcome to Anooshkha's Page</h1>
+      <h1>Alex's Page!</h1>
       <div style={containerStyle}>
-        <img src={AnooshkhaImage} alt="Anooshkha" style={imageStyle} />
+        <img src={SCPhoto} alt="Alex" style={imageStyle} />
         <div style={contentStyle}>
-          <h2>Facts About Anooshkha</h2>
+          <h2>Facts About Alex</h2>
           <p><strong>Home Town:</strong> Bay Area</p>
-          <p><strong>Major:</strong> Math of Comp</p>
-          <p><strong>Fun Fact:</strong> My favorite color is green!</p>
+          <p><strong>Major:</strong> Pre Applied Mathematics</p>
+          <p><strong>Fun Fact:</strong> I can draw all countries of the world from memory!!!</p>
           <Link to="/" style={buttonStyle}>Back to home page</Link>
         </div>
       </div>
@@ -20,11 +20,11 @@ const AnooshkhaPage = () => {
   );
 }
 
-export default AnooshkhaPage;
+export default Pageddijit;
 
 const pageStyle = {
-  padding: '20px',
-  backgroundColor: '#8ecae6', // https://coolors.co/palettes/trending
+  padding: '50px',
+  backgroundColor: '#219EBC', // https://coolors.co/palettes/trending
   minHeight: '100vh',
   display: 'flex',
   flexDirection: 'column',
@@ -33,9 +33,9 @@ const pageStyle = {
 };
 
 const containerStyle = {
-  backgroundColor: '#fff',
-  padding: '20px',
-  borderRadius: '8px',
+  backgroundColor: '#fffe20',
+  padding: '50px',
+  borderRadius: '30px',
   boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
   marginTop: '20px',
 };
